@@ -27,7 +27,7 @@ This requires knowledge of several different areas including
 For a full overview
 
 Topics covered
-  - [Creating a log analytics workspace](url)
+  - [Creating a log analytics workspace](https://github.com/OliverAdams/angryadmin/blob/gh-pages/dashboard-overview.md)
   - [Adding custom logs](url)
   - [Deploying/Installing the agent log analytics agent](url)
   - [Log Analytics versus Azure Monitor?](url)
