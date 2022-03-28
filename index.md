@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to The Angry Admin
 
 You can use the [editor on GitHub](https://github.com/OliverAdams/angryadmin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
