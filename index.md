@@ -22,7 +22,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 For my first post I have decided to write a full length article about how to create an Azure Dashboard showing the health of your teams meeting room devices.
 
 Topics covered
-  - Creating a log analytics workspace
+  - [Creating a log analytics workspace](url)
   - Adding custom logs
   - Deploying/Installing the agent log analytics agent
   - Log Analytics versus Azure Monitor?
