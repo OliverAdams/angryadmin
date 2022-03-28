@@ -1,36 +1,35 @@
 ## Welcome to The Angry Admin
 
-You can use the [editor on GitHub](https://github.com/OliverAdams/angryadmin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+After years of reading other peoples blog posts I finally decided to try and create my own.
 
 ```markdown
-Syntax highlighted code block
+Welcome to my world of automation inside the artic circle.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+# About Me
+- 20 years of experience in the IT Industry
+- Live inside the artic circle
+- Enjoy Automation
+- Loves dogs
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
-
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+For my first post I have decided to write a full length article about how to create an Azure Dashboard showing the health of your teams meeting room devices.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OliverAdams/angryadmin/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Topics covered
+  - Creating a log analytics workspace
+  - Adding custom logs
+  - Deploying/Installing the agent log analytics agent
+  - Log Analytics versus Azure Monitor?
+  - Windows Event log for Microsoft Teams Rooms
+  - What is Kusto?
+  - Kusto Queries
+  - Log Analytics Workbooks
+  - Azure Dashboards
+  - Grafana/PowerBI
 
 ### Support or Contact
 
