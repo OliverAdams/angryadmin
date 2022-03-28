@@ -27,17 +27,17 @@ This requires knowledge of several different areas including
 For a full overview
 
 Topics covered
-  - [The Begnning](https://github.com/OliverAdams/angryadmin/blob/gh-pages/dashboard-overview.md)
-  - [Creating a log analytics workspace](https://github.com/OliverAdams/angryadmin/blob/gh-pages/law.md)
-  - [Adding custom logs](https://github.com/OliverAdams/angryadmin/blob/gh-pages/law-customlogs.md)
+  - [The Begnning](https://github.com/OliverAdams/angryadmin/blob/gh-pages/dashboard-overview)
+  - [Creating a log analytics workspace](https://github.com/OliverAdams/angryadmin/blob/gh-pages/law)
+  - [Adding custom logs](https://github.com/OliverAdams/angryadmin/blob/gh-pages/law-customlogs)
   - [Deploying/Installing the log analytics agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/)
   - [Log Analytics versus Azure Monitor?](https://github.com/OliverAdams/angryadmin/blob/gh-pages/)
-  - [Windows Event log for Microsoft Teams Rooms](https://github.com/OliverAdams/angryadmin/blob/gh-pages/teamsroom-eventlogs.md)
-  - [What is Kusto?](https://github.com/OliverAdams/angryadmin/blob/gh-pages/kusto.md)
-  - [Kusto Queries](https://github.com/OliverAdams/angryadmin/blob/gh-pages/kusto-queries.md)
-  - [Log Analytics Workbooks](https://github.com/OliverAdams/angryadmin/blob/gh-pages/azure-workbooks.md)
-  - [Azure Dashboards](https://github.com/OliverAdams/angryadmin/blob/gh-pages/azure-dashboards.md)
-  - [Grafana/PowerBI](https://github.com/OliverAdams/angryadmin/blob/gh-pages/grafana-powerbi.md)
+  - [Windows Event log for Microsoft Teams Rooms](https://github.com/OliverAdams/angryadmin/blob/gh-pages/teamsroom-eventlogs)
+  - [What is Kusto?](https://github.com/OliverAdams/angryadmin/blob/gh-pages/kusto)
+  - [Kusto Queries](https://github.com/OliverAdams/angryadmin/blob/gh-pages/kusto-queries)
+  - [Log Analytics Workbooks](https://github.com/OliverAdams/angryadmin/blob/gh-pages/azure-workbooks)
+  - [Azure Dashboards](https://github.com/OliverAdams/angryadmin/blob/gh-pages/azure-dashboards)
+  - [Grafana/PowerBI](https://github.com/OliverAdams/angryadmin/blob/gh-pages/grafana-powerbi)
 
 
 
