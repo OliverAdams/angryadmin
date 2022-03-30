@@ -34,6 +34,7 @@ For a full overview
 Topics covered
   - [The Begnning](https://github.com/OliverAdams/angryadmin/blob/gh-pages/dashboard-overview.md)
   - [Creating a log analytics workspace](https://github.com/OliverAdams/angryadmin/blob/gh-pages/law.md)
+  - [Installing The log Analytics Agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/mmagent.md)
   - [Adding custom logs](https://github.com/OliverAdams/angryadmin/blob/gh-pages/law-customlogs.md)
   - [Deploying/Installing the log analytics agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/)
   - [Log Analytics versus Azure Monitor?](https://github.com/OliverAdams/angryadmin/blob/gh-pages/)
