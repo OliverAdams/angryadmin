@@ -11,4 +11,7 @@
 
 ## The installation
 
+## Workspace ID and Key
+    
+
 Next we will configure the logs we want to recieve
