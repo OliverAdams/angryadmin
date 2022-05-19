@@ -15,10 +15,11 @@ so instead of taking you through that step by step I will go through some import
 
 ## Different log types
   Some logs are free to ingest and some logs are not?
-  Cheaper retention without log analytics, when you ingest your logs copy them to blob storage at the same time to make retention cheaper.
-  All client log files are free to ingest. however if they are placed into a LAW with server or application log files you will pay for your client logs also
-  Keep your client logs separate unless you are using sentinel.
-  What other logs are free. -hyperlink
+  Cheaper retention without log analytics, when you ingest your logs copy them to blob storage at the same time to make retention cheaper.</br>
+  All client log files are free to ingest. however if they are placed into a LAW with server or application log files </br>
+  you will pay for your client logs also.</br>
+  Keep your client logs separate unless you are using sentinel.</br>
+  What other logs are free. -hyperlink </br>
 
 ## Sentintel
   Sentinel can only connect to a single low analytics workspace
