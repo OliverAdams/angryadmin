@@ -10,17 +10,6 @@ Welcome to my world of automation inside the artic circle.
 - Enjoy Automation
 - Loves dogs
 
-**Bold** and _Italic_ and `Code` text
-
-![Image](src)
-```
-Event 
-| where Source == "SRS-App" and EventID == 2000
-| extend d=parse_json(RenderedDescription) 
-| extend Description=d.Description, ResourceState=d.ResourceState, OperationName=d.OperationName,OperationResult=d.OperationResult,OS=d.OS,OSVersion=d.OSVersion,Alias=d.Alias,DisplayName=d.DisplayName,Appversion=d.Appversion,IPV4Address=d.IPV4Address,IPV4Address2=d.IPV4Address2,IPV6Address=d.IPV6Address
-| project Computer,Description,ResourceState,OperationName,OperationResult,OS,OSVersion,Alias,DisplayName,Appversion,IPV4Address,IPV4Address2,IPV6Address
-```
-
 For my first post I have decided to write a full length article about how to create an Azure Dashboard showing the health of your teams meeting room devices.
 
 This requires knowledge of several different areas including 
