@@ -2,17 +2,17 @@
 
 To create the dashboard requires knowledge of many different areas and tools which I will go over first.
 
-Teams Room Agent
-Microsoft Teams Room Event Log
-Microsoft Monitoring Agent
-Azure Log Analytics Workspaces
-Kusto Query Language
-Azure Workbooks
-Azure Dashboards
-Additional but not required
-  Power BI
-  Grafana
-  Azure Managed Grafana
+Teams Room Agent </br>
+Microsoft Teams Room Event Log </br>
+Microsoft Monitoring Agent </br>
+Azure Log Analytics Workspaces </br>
+Kusto Query Language </br>
+Azure Workbooks </br>
+Azure Dashboards </br>
+Additional but not required </br>
+  Power BI </br>
+  Grafana </br>
+  Azure Managed Grafana </br>
 
 In this series of articles we will go through these areas step by step. If you are already comfortable with these I am hoping to release a quick guide for faster reading.
 
