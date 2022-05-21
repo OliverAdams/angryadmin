@@ -13,7 +13,7 @@ Also Microsoft-Windows-Audio/CaptureMonitor
      Microsoft-Windows-Disk/Operational
      Microsoft-Windows-NetworkProfile/Diagnostic
      
-     Once these logs are added we can start to query these logs using the Kusto Query Language
+Once these logs are added we can start to query these logs using the Kusto Query Language
      
 Every five minutes the teams room device will write two events to the SRS event log.
 
