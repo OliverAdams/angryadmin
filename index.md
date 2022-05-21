@@ -27,7 +27,7 @@ Topics covered
   - [Adding custom logs](https://github.com/OliverAdams/angryadmin/blob/gh-pages/law-customlogs.md)
   - [Deploying/Installing the log analytics agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/)
   - [Log Analytics versus Azure Monitor?](https://github.com/OliverAdams/angryadmin/blob/gh-pages/)
-  - [Windows Event log for Microsoft Teams Rooms]([https://github.com/OliverAdams/angryadmin/blob/gh-pages/teamsroom-eventlogs.md])
+  - [Windows Event log for Microsoft Teams Rooms]([https://github.com/OliverAdams/angryadmin/blob/gh-pages/teamsroom-eventlogs])
   - [What is Kusto?](https://github.com/OliverAdams/angryadmin/blob/gh-pages/kusto.md)
   - [Kusto Queries](https://github.com/OliverAdams/angryadmin/blob/gh-pages/kusto-queries.md)
   - [Log Analytics Workbooks](https://github.com/OliverAdams/angryadmin/blob/gh-pages/azure-workbooks.md)
