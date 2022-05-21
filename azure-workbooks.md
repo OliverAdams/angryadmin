@@ -9,10 +9,6 @@ graph TD;
     AddQuery-->EnterQuery;
     ConfigureColumns-->PinToDashboard;    
 ```
-```erDiagram
-    New ||--o{ add-query : Add
-    add-query ||--|{ enter-query : configure-columns
-```
 
 
 New
