@@ -6,8 +6,9 @@
 ```mermaid
 graph TD;
     New-->Add;
-    AddQuery-->EnterQuery;
-    ConfigureColumns-->PinToDashboard;    
+    Add-->Add-Query;
+    Add-Query-->Enter-Query;
+    Configure-Columns-->Pin-To-Dashboard;    
 ```
 
 
