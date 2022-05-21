@@ -30,7 +30,9 @@ If the teams app is restarted at any point the event 4000 is written to the even
 This is a healthy heartbeat event. Every 5 minutes, Microsoft Teams Rooms checks that it is signed in to Microsoft Teams or Skype for Business and has network and Exchange connectivity.If all 3 factors are true, it writes Event ID 2000 into the event log every 5 minutes until the device is offline or one or more of the conditions are no longer met.
 
 ```json
-{"Description":"Heartbeat is healthy.", "ResourceState":"Healthy", "OperationName":"Heartbeat", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Display name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IP v6 address"}
+{"Description":"Heartbeat is healthy.", "ResourceState":"Healthy", "OperationName":"Heartbeat", "OperationResult":"Pass",
+"OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Display name",
+"AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IP v6 address"}
 ```
 
 ## Skype-Room-System - Event 2001 Error
@@ -38,7 +40,10 @@ This is a healthy heartbeat event. Every 5 minutes, Microsoft Teams Rooms checks
 This is an app error event. Every 5 minutes, Microsoft Teams Rooms checks that it is signed in to Microsoft Teams or Skype for Business with network and Exchange connectivity. If one or more factors are not true, it writes EventID 2001 into the event log every 5 minutes until the device is offline or all conditions are met once again.
 
 ```
-{"Description":"Network status : Healthy. Exchange status : Connected. Signin status: Unhealthy. Teams Signin status: Healthy.", "ResourceState":"Unhealthy", "OperationName":"Heartbeat", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}
+{"Description":"Network status : Healthy. Exchange status : Connected. Signin status: Unhealthy. Teams Signin status: Healthy.",
+"ResourceState":"Unhealthy", "OperationName":"Heartbeat", "OperationResult":"Fail", "OS":"Windows 10",
+"OSVersion":"10.0.14393.693", "Alias":"", "DisplayName":"Display Name", "AppVersion":"1.0.38.0",
+"IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}
 ```
 
 ## Skype-Room-System - Event 3000 - Informational
@@ -50,7 +55,9 @@ This event verifies that a hardware check was run and found to be healthy. Every
 This is a hardware error event. The Microsoft Teams Rooms app has a process that checks the health of connected hardware components (front of room, microphone, speaker, camera) every 5 minutes. If one or more of the components are unhealthy, it writes EventID 3001 into the event log. This event is written every 5 minutes until the issue with the device is fixed.
 
 ```
-{"Description":"HardwareCheckEngine is healthy.", "ResourceState":"Healthy", "OperationName":"HardwareCheckEngine", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}
+{"Description":"HardwareCheckEngine is healthy.", "ResourceState":"Healthy", "OperationName":"HardwareCheckEngine",
+"OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com",
+"DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}
 ```
 
 ## Skype-Room-System - Event 4000
@@ -58,6 +65,8 @@ This is a hardware error event. The Microsoft Teams Rooms app has a process that
 This is an App Restart event. Every time the app is restarted, it will log this event into the Windows event log.
 
 ```
-{"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}
+{"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass",
+"OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com",
+"DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}
 ```
 
