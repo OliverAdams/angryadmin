@@ -4,6 +4,8 @@ Configure the agent to collect the log named "Skype Room System"
 
 Warning, Error and Informational Events
 
+I will not cover these other logs in detail in this post but these are worth adding also.
+
 Also Microsoft-Windows-Audio/CaptureMonitor
      Microsoft-Windows-Audio/GlitchDetection
      Microsoft-Windows-Audio/Informational
@@ -29,6 +31,8 @@ If the teams app is restarted at any point the event 4000 is written to the even
 
 This is a healthy heartbeat event. Every 5 minutes, Microsoft Teams Rooms checks that it is signed in to Microsoft Teams or Skype for Business and has network and Exchange connectivity.If all 3 factors are true, it writes Event ID 2000 into the event log every 5 minutes until the device is offline or one or more of the conditions are no longer met.
 
+The data returned when this event triggers is show below:
+
 ```json
 {"Description":"Heartbeat is healthy.", "ResourceState":"Healthy", "OperationName":"Heartbeat", "OperationResult":"Pass",
 "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Display name",
@@ -38,6 +42,8 @@ This is a healthy heartbeat event. Every 5 minutes, Microsoft Teams Rooms checks
 ## Skype-Room-System - Event 2001 Error
 
 This is an app error event. Every 5 minutes, Microsoft Teams Rooms checks that it is signed in to Microsoft Teams or Skype for Business with network and Exchange connectivity. If one or more factors are not true, it writes EventID 2001 into the event log every 5 minutes until the device is offline or all conditions are met once again.
+
+The data returned when this event triggers is show below:
 
 ```
 {"Description":"Network status : Healthy. Exchange status : Connected. Signin status: Unhealthy. Teams Signin status: Healthy.",
@@ -54,6 +60,8 @@ This event verifies that a hardware check was run and found to be healthy. Every
 
 This is a hardware error event. The Microsoft Teams Rooms app has a process that checks the health of connected hardware components (front of room, microphone, speaker, camera) every 5 minutes. If one or more of the components are unhealthy, it writes EventID 3001 into the event log. This event is written every 5 minutes until the issue with the device is fixed.
 
+The data returned when this event triggers is show below:
+
 ```
 {"Description":"HardwareCheckEngine is healthy.", "ResourceState":"Healthy", "OperationName":"HardwareCheckEngine",
 "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com",
@@ -63,6 +71,8 @@ This is a hardware error event. The Microsoft Teams Rooms app has a process that
 ## Skype-Room-System - Event 4000
 
 This is an App Restart event. Every time the app is restarted, it will log this event into the Windows event log.
+
+The data returned when this event triggers is show below:
 
 ```
 {"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass",
