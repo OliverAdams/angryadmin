@@ -7,7 +7,7 @@
 graph TD;
     New-->Add;
     AddQuery-->EnterQuery;
-    'Configure Columns'-->PinToDashboard;    
+    ConfigureColumns-->PinToDashboard;    
 ```
 
 New
