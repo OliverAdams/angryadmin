@@ -29,7 +29,7 @@ If the teams app is restarted at any point the event 4000 is written to the even
 
 This is a healthy heartbeat event. Every 5 minutes, Microsoft Teams Rooms checks that it is signed in to Microsoft Teams or Skype for Business and has network and Exchange connectivity.If all 3 factors are true, it writes Event ID 2000 into the event log every 5 minutes until the device is offline or one or more of the conditions are no longer met.
 
-```
+```json
 {"Description":"Heartbeat is healthy.", "ResourceState":"Healthy", "OperationName":"Heartbeat", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Display name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IP v6 address"}
 ```
 
