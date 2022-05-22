@@ -21,19 +21,19 @@ This requires knowledge of several different areas including
 For a full overview
 
 Topics covered
-  - [The Begnning](https://github.com/OliverAdams/angryadmin/blob/gh-pages/dashboard-overview.md)
+  - [The Begnning](https://github.com/OliverAdams/angryadmin/dashboard-overview)
   - [Creating a log analytics workspace](https://oliveradams.github.io/angryadmin/law)
-  - [Installing The log Analytics Agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/mmagent.md)
-  - [Adding custom logs](https://github.com/OliverAdams/angryadmin/blob/gh-pages/law-customlogs.md)
-  - [Deploying/Installing the log analytics agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/)
-  - [Log Analytics versus Azure Monitor?](https://github.com/OliverAdams/angryadmin/blob/gh-pages/)
+  - [Installing The log Analytics Agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/mmagent)
+  - [Adding custom logs](https://github.com/OliverAdams/angryadmin/law-customlogs)
+  - [Deploying/Installing the log analytics agent](https://github.com/OliverAdams/angryadmin/)
+  - [Log Analytics versus Azure Monitor?](https://github.com/OliverAdams/angryadmin/)
   - [Windows Event log for Microsoft Teams Rooms](https://oliveradams.github.io/angryadmin/teamsroom-eventlogs)
-  - [What is Kusto?](https://github.com/OliverAdams/angryadmin/blob/gh-pages/kusto.md)
-  - [Kusto Queries](https://github.com/OliverAdams/angryadmin/blob/gh-pages/kusto-queries.md)
-  - [Log Analytics Workbooks](https://github.com/OliverAdams/angryadmin/blob/gh-pages/azure-workbooks.md)
-  - [Azure Dashboards](https://github.com/OliverAdams/angryadmin/blob/gh-pages/azure-dashboards.md)
-  - [Grafana/PowerBI](https://github.com/OliverAdams/angryadmin/blob/gh-pages/grafana-powerbi.md)
-  - [Azure Arc and Next Steps](https://github.com/OliverAdams/angryadmin/blob/gh-pages/azure-arc.md)
+  - [What is Kusto?](https://github.com/OliverAdams/angryadmin/kusto)
+  - [Kusto Queries](https://github.com/OliverAdams/angryadmin/kusto-queries)
+  - [Log Analytics Workbooks](https://github.com/OliverAdams/angryadmin/azure-workbooks)
+  - [Azure Dashboards](https://github.com/OliverAdams/angryadmin/azure-dashboards)
+  - [Grafana/PowerBI](https://github.com/OliverAdams/angryadmin/grafana-powerbi)
+  - [Azure Arc and Next Steps](https://github.com/OliverAdams/angryadmin/azure-arc)
 
 
 
