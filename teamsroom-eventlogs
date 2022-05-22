@@ -56,6 +56,12 @@ The data returned when this event triggers is show below:
 
 This event verifies that a hardware check was run and found to be healthy. Every 5 minutes Microsoft Teams Rooms checks that configured hardware components such as front of room display, microphone, speaker, and camera are connected and functioning. If all components are healthy, it writes EventID 3000 into the event log. This event is written every 5 minutes unless there is an issue with a connected device.
 
+```
+{"Description":"HardwareCheckEngine is healthy.", "ResourceState":"Healthy", "OperationName":"HardwareCheckEngine", 
+"OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@contoso.com",
+"DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}
+```
+
 ## Skype-Room-System - Event 3001 - Error
 
 This is a hardware error event. The Microsoft Teams Rooms app has a process that checks the health of connected hardware components (front of room, microphone, speaker, camera) every 5 minutes. If one or more of the components are unhealthy, it writes EventID 3001 into the event log. This event is written every 5 minutes until the issue with the device is fixed.
