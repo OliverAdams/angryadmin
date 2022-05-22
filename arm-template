@@ -1,0 +1,27 @@
+az monitor log-analytics workspace table create
+
+
+
+Create resource group
+	az group create --location norwayeast --name test
+Create log analytics Workspace
+	az monitor log-analytics workspace create --resource-group test --name log-analytics-mtr
+	az monitor log-analytics workspace table create --name 'Skype Room System' 
+                                                --resource-group main
+                                                --workspace-name log-analytics-mtr
+
+
+Create azure workbook
+Add custom entries
+
+Pin to azure dashboard
+	
+
+Create Azure Dashboard
+az portal dashboard create --input-path
+                           --name
+                           --resource-group
+
+
+
+
