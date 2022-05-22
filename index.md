@@ -24,6 +24,7 @@ Topics covered
   - [The Begnning](https://github.com/OliverAdams/angryadmin/dashboard-overview)
   - [Creating a log analytics workspace](https://github.com/OliverAdams/angryadmin/law)
   - [Installing The log Analytics Agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/mmagent)
+  - [Teams Room Eventlogs](https://github.com/OliverAdams/angryadmin/teamsroom-eventlogs)
   - [Adding custom logs](https://github.com/OliverAdams/angryadmin/law-customlogs)
   - [Deploying/Installing the log analytics agent](https://github.com/OliverAdams/angryadmin/)
   - [Log Analytics versus Azure Monitor?](https://github.com/OliverAdams/angryadmin/)
