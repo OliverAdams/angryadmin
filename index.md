@@ -22,7 +22,7 @@ For a full overview
 
 Topics covered
   - [The Begnning](https://github.com/OliverAdams/angryadmin/dashboard-overview)
-  - [Creating a log analytics workspace](law)
+  - [Creating a log analytics workspace](law.md)
   - [Installing The log Analytics Agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/mmagent)
   - [Teams Room Eventlogs](https://github.com/OliverAdams/angryadmin/teamsroom-eventlogs)
   - [Adding custom logs](https://github.com/OliverAdams/angryadmin/law-customlogs)
