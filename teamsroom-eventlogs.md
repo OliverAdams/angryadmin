@@ -86,3 +86,4 @@ The data returned when this event triggers is show below:
 "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}
 ```
 
+In the next section we will look into parsing this information inside Log Analytics using the Kusto Query Language.
