@@ -21,20 +21,20 @@ This requires knowledge of several different areas including
 For a full overview
 
 Topics covered
-  - [The Begnning](https://github.com/OliverAdams/angryadmin/dashboard-overview)
+  - [The Begnning](dashboard-overview.md)
   - [Creating a log analytics workspace](law.md)
-  - [Installing The log Analytics Agent](https://github.com/OliverAdams/angryadmin/blob/gh-pages/mmagent)
-  - [Teams Room Eventlogs](https://github.com/OliverAdams/angryadmin/teamsroom-eventlogs)
-  - [Adding custom logs](https://github.com/OliverAdams/angryadmin/law-customlogs)
-  - [Deploying/Installing the log analytics agent](https://github.com/OliverAdams/angryadmin/)
-  - [Log Analytics versus Azure Monitor?](https://github.com/OliverAdams/angryadmin/)
-  - [Windows Event log for Microsoft Teams Rooms](https://github.com/OliverAdams/angryadmin/teamsroom-eventlogs)
-  - [What is Kusto?](https://github.com/OliverAdams/angryadmin/kusto)
-  - [Kusto Queries](https://github.com/OliverAdams/angryadmin/kusto-queries)
-  - [Log Analytics Workbooks](https://github.com/OliverAdams/angryadmin/azure-workbooks)
-  - [Azure Dashboards](https://github.com/OliverAdams/angryadmin/azure-dashboards)
-  - [Grafana/PowerBI](https://github.com/OliverAdams/angryadmin/grafana-powerbi)
-  - [Azure Arc and Next Steps](https://github.com/OliverAdams/angryadmin/azure-arc)
+  - [Installing The log Analytics Agent](mmagent.md)
+  - [Teams Room Eventlogs](teamsroom-eventlogs.md)
+  - [Adding custom logs](law-customlogs.md)
+  - [Deploying/Installing the log analytics agent]()
+  - [Log Analytics versus Azure Monitor?]()
+  - [Windows Event log for Microsoft Teams Rooms](https://github.com/OliverAdams/angryadmin/teamsroom-eventlogs.md)
+  - [What is Kusto?](kusto.md)
+  - [Kusto Queries](kusto-queries.md)
+  - [Log Analytics Workbooks](azure-workbooks.md)
+  - [Azure Dashboards](azure-dashboards.md)
+  - [Grafana/PowerBI](grafana-powerbi.md)
+  - [Azure Arc and Next Steps](azure-arc.md)
 
 
 
