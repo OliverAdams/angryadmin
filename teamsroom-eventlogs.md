@@ -87,3 +87,4 @@ The data returned when this event triggers is show below:
 ```
 
 In the next section we will look into parsing this information inside Log Analytics using the Kusto Query Language.
+
